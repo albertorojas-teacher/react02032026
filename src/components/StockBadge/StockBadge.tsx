@@ -16,9 +16,7 @@ const StockBadge = (props: StockProps) => {
         classState = "critical"
         message = `!Solo quedan ${props.quantity}`
     }
-
-
-
+    
   return (
     <div className={`badge-container ${classState}`}>
         <strong>{props.productName}</strong>
