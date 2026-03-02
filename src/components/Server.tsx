@@ -1,4 +1,3 @@
-import React from 'react'
 import './Server.css'
 
 // Vamos a definir el contrato estricto
@@ -14,7 +13,7 @@ const Server = (props: StatusProps) => {
     //Determinar dinamicamente el texto indicador 
     const statusText = props.status === 'online' ? 'Its work': 'Fallen'
 
-    
+
   return (
     <div className={`server-card ${statusClass}`}>
         <h3>{props.serverName}</h3>
