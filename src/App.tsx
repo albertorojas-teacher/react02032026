@@ -1,13 +1,13 @@
 
 import './App.css'
-import Counter from './components/Counter/Counter'
+import CardPreview from './components/CardPreview/CardPreview'
 
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <CardPreview />
     </>
   )
 }
