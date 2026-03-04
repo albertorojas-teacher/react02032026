@@ -1,13 +1,12 @@
 
 import './App.css'
-import CardPreview from './components/CardPreview/CardPreview'
-
+import Switcher from './components/Switcher/Switcher'
 
 function App() {
 
   return (
     <>
-      <CardPreview />
+      <Switcher />
     </>
   )
 }
