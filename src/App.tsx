@@ -1,13 +1,14 @@
 
 import './App.css'
-import Entrance from './components/Entrance/Entrance'
+import PassValidator from './components/PassValidator/PassValidator'
+
 
 
 function App() {
 
   return (
     <>
-      <Entrance />
+      <PassValidator />
     </>
   )
 }
