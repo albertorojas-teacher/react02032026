@@ -1,12 +1,13 @@
 
 import './App.css'
-import Switcher from './components/Switcher/Switcher'
+import Entrance from './components/Entrance/Entrance'
+
 
 function App() {
 
   return (
     <>
-      <Switcher />
+      <Entrance />
     </>
   )
 }
